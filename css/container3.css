@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width:100%;
+    height: auto;
+}
+.container{
+   background:url('/img/background.png') ;
+   background-repeat: no-repeat;
+   background-size: cover;
+   width: auto;
+   height: 585px;
+   background-position: 50% 0%;
+   margin:0px 40px ;
+   margin-top: 10px;
+   border-radius: 10px;
+   }
+.row{
+    margin-left:70px ;
+    padding-top: 60px;
+   }
+.p1{
+    padding-bottom: 33px;
+    font-size: 85px;
+    color: rgb(248, 144, 53);
+    font-family: "Raleway", sans-serif;
+    }
+.p2{
+    padding-bottom: 23px;
+    line-height: 1.5;
+    font-size: large;
+    font-family: "Roboto", sans-serif;
+    color: #666;
+}
+.p3{
+    padding-bottom: 45px;
+    font-weight: bold;
+    font-size: large;
+    font-family: "Roboto", sans-serif;
+    color: #555;
+}
+.column1 button{
+    color: white;
+    background-color:rgb(88, 149, 254);
+    border-radius: 30px;
+    padding: 18px 50px;
+    font-size: large;
+    font-weight: bold;
+    border: none;
+    float: left;
+    margin-right: 15px;
+   
+}
+.p4{
+    padding-top: 13px;
+    padding-left: 15px;
+    font-size: smaller;
+    font-style: italic;
+    font-family: "Roboto", sans-serif;
+    color: #666;
+}
+.column2{
+
+}
+.shape{
+    background: url('/img/circle.png');
+    width: 450px;
+    height: 450px;
+    margin:-422px  0 0 563px;
+      }
+.image{
+    background: url('/img/puppy.png');
+    height: 400px;
+    width: 560px;
+    margin: -409px 0 0 431px;
+}

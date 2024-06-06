@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+    height: auto;
+    background-color: black;
+}
+.container{
+    margin: 70px 70px 20px 70px;
+    color: white;
+    text-align: center;
+}
+.row1 h4{
+    font-size: 25px;
+    padding-bottom: 13px;
+}
+.row1 p{
+    font-size: small;
+    padding-bottom: 45px;
+}
+.row2{
+    background-color: white;
+    color: black;
+    height: 390px;
+    margin-bottom: 40px;
+}
+.column1 p{
+    text-align: left;
+    padding-top: 148px;
+    font-size: 40px;
+    padding-left: 45px;
+}
+.column2{
+    background: url('/img/steve.jpg');
+    height: 390px;
+    width: 30%;
+    margin:-240px 0 0 754px;
+}
+.row3{
+    text-align: left;
+    margin-left: 273px;
+}
+.row3 h3{
+    font-size: 40px;
+    padding-bottom: 20px;
+}
+.row3 p{
+    line-height: 1.4;
+    font-size: 16px;
+    padding-bottom: 30px;
+}
+.row3 hr{
+    width: 65%;
+    margin-bottom: 30px;
+}
